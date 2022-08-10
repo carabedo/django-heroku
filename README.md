@@ -1,4 +1,6 @@
-# DJANGO-HEROKU
+# django-heroku
+
+Vamos a ver como subir nuestro proyecto django a un servidor de heroku, tambien vamos a ver como migrar nuestra db a una base de datos postgresql (el tipo de db que usa heroku)
 
 
 ## Creamos un entorno virtual
@@ -94,7 +96,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 ```
 
-## Agregamos 3 archivos:
+## Agregamos 3 archivos necesarios para Heroku:
 
 #### `requirements.txt`
 
