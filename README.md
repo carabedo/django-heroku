@@ -2,6 +2,16 @@
 
 Vamos a ver como subir nuestro proyecto django a un servidor de heroku, tambien vamos a ver como migrar nuestra db a una base de datos postgresql (el tipo de db que usa heroku)
 
+Vamos a configurar el proyecto local que trabajamos antes:
+
+https://github.com/carabedo/django
+
+Para tenerlo en produccion con todas sus funcionalidades asi:
+
+https://djpg.herokuapp.com
+
+
+
 
 ## Creamos un entorno virtual
 
