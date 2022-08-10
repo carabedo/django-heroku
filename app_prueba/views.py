@@ -12,15 +12,6 @@ def home(request):
         return render(request,"app_prueba/home.html")
 
 
-from .forms import FiltroParticipantes
-
-from .models import Participantes
-def about(request):
-    nosotros = Participantes.objects.all() 
-    filtro_form = FiltroParticipantes
-    return render(request, "app_prueba/about.html", {'participantes': nosotros, 'form': filtro_form })
-
-
 
 
 from .forms import FiltroParticipantes
@@ -77,11 +68,8 @@ def registro(request):
         #Chequeamos que los datos son validos, de ser asi, los asignamos a una variable
         #if registro_form.is_valid():
         cliente_id= request.POST.get('cliente_id','')
-        email = request.POST.get('email','')
         pwd = request.POST.get('pwd','')
-
-        user = User.objects.create_user(cliente_id, email, pwd)
-
+        user = User.objects.create_user(cliente_id, 'null@mail.com', pwd)
         user.save()
 
         #En lugar de renderizar el template de prestamoo hacemos un redireccionamiento enviando una variable OK
