@@ -11,7 +11,7 @@ Para tenerlo en produccion con todas sus funcionalidades asi:
 https://djpg.herokuapp.com
 
 
-
+[migrando a postgres](https://github.com/carabedo/django-heroku/blob/main/README.md#migramos-nuestra-db-de-sqlite-a-postgres)
 
 ## Creamos un entorno virtual
 
@@ -296,6 +296,7 @@ import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
 ```
+# Subiendo a Heroku el proyecto
 
 ## Instalamos heroku-cli 
 
