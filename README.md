@@ -10,6 +10,8 @@ Para tenerlo en produccion con todas sus funcionalidades asi:
 
 https://djpg.herokuapp.com
 
+Esta guia esta pensada para linux, si tenes windows no tenes excusas, podes instalar linux en windows como si fuera un programa mas: https://letmegooglethat.com/?q=wls+ubuntu+windows+10+espa%C3%B1ol
+
 ## Indice:
 
 - [achivos heroku](https://github.com/carabedo/django-heroku#archivos-necesarios-para-heroku)
