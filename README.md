@@ -12,6 +12,7 @@ https://djpg.herokuapp.com
 
 ## Indice:
 
+- [creando repo](https://github.com/carabedo/django-heroku#creemos-un-repositorio-remoto-nuevo)
 - [migrando a postgres](https://github.com/carabedo/django-heroku#migramos-nuestra-db-de-sqlite-a-postgres)
 - [heroku](https://github.com/carabedo/django-heroku#subiendo-a-heroku-el-proyecto)
 
@@ -109,7 +110,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 ```
 
-## Agregamos 3 archivos necesarios para Heroku:
+# Archivos necesarios para Heroku:
 
 #### `requirements.txt`
 
