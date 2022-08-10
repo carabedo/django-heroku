@@ -12,9 +12,10 @@ https://djpg.herokuapp.com
 
 ## Indice:
 
+- [achivos heroku](https://github.com/carabedo/django-heroku#archivos-necesarios-para-heroku)
 - [creando repo](https://github.com/carabedo/django-heroku#creemos-un-repositorio-remoto-nuevo)
 - [migrando a postgres](https://github.com/carabedo/django-heroku#migramos-nuestra-db-de-sqlite-a-postgres)
-- [heroku](https://github.com/carabedo/django-heroku#subiendo-a-heroku-el-proyecto)
+- [subiendo a heroku](https://github.com/carabedo/django-heroku#subiendo-a-heroku-el-proyecto)
 
 
 ## Creamos un entorno virtual
