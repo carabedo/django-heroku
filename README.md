@@ -13,6 +13,8 @@ https://djpg.herokuapp.com
 ## Indice:
 
 - [migrando a postgres](https://github.com/carabedo/django-heroku/blob/main/README.md#migramos-nuestra-db-de-sqlite-a-postgres)
+- [heroku](https://github.com/carabedo/django-heroku/blob/main/README.md#subiendo-a-heroku-el-proyecto)
+
 
 ## Creamos un entorno virtual
 
