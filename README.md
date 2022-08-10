@@ -10,8 +10,9 @@ Para tenerlo en produccion con todas sus funcionalidades asi:
 
 https://djpg.herokuapp.com
 
+## Indice:
 
-[migrando a postgres](https://github.com/carabedo/django-heroku/blob/main/README.md#migramos-nuestra-db-de-sqlite-a-postgres)
+- [migrando a postgres](https://github.com/carabedo/django-heroku/blob/main/README.md#migramos-nuestra-db-de-sqlite-a-postgres)
 
 ## Creamos un entorno virtual
 
