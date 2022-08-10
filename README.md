@@ -118,6 +118,9 @@ whitenoise==6.2.0
 dj-database-url
 psycopg2
 ``` 
+Es por esta razon que creamos un entorno nuevo, por que si no lo haciamos este comando (freeze) listaria todas las librerias de nuestra computadora, librerias que seguramente nuestro proyecto no esta usando.
+
+
 #### `Procfile`
 
 Ingresamos la siguiente linea:
