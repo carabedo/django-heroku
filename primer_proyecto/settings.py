@@ -93,16 +93,14 @@ WSGI_APPLICATION = 'primer_proyecto.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    },
-
-        'old': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'old.db',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'testdb',
+        'USER': 'ubuntu',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
