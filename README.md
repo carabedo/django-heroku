@@ -170,7 +170,7 @@ primer_proyecto/
 ```
 
 
-# Creemos un repositorio remoto!
+# Creemos un repositorio remoto nuevo:
 
 Primero generamos un repositorio vacio sin readme.md en [GITHUB](https://github.com/new)
 
